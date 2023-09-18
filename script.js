@@ -17,9 +17,24 @@ function greeting(name) {
     console.log(`Bonjour ${name}`);
 }
 
-console.log(greeting('Narek'));*/
+console.log(greeting('Narek'));
 
 function maFonction() {
     console.log(this);
 }
 maFonction();
+
+
+
+*/
+
+const guess = "Richesse";
+const playerAnswer = window.prompt("Essaie de deviner le mot, tu as max 3 chances");
+
+while (guess != playerAnswer) {
+
+    if (guess != playerAnswer) {
+        alert("Tdé")
+    } break
+}
+
